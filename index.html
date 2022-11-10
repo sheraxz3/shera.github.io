@@ -1,0 +1,100 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+    
+    <title>KILL ALL BLACK MEN</title>
+    <script src="js/core.js"></script>
+    </head><body><audio id="music" autoplay loop onplaying style="display: none;" src="media/5.mp3"></audio>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+	<meta property="og:image" content="images/Kassadin_final.gif">
+	<meta property="og:description" content="BLACK LIVES MATTER, NIGGER NIGGER MAD NIGGER MAD OOGA BOOGA NIGGER KILL WOMAN">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+
+
+
+    <div class="beforebg" id="beforebg"></div>
+    <video muted loop id="myVideo" preload="auto" autoplay src="media/bg6.mp4">
+        <source type="video/webm">
+    </video>
+
+    <div id="main" class="center">
+        <div id="overlay" onclick="launchFullscreen(document.documentElement); music.play(); music.volume = 1; addStuff();"><span class="clickenter header">FREE ROBUX!</span></div>
+
+<script>
+// Find the right method, call on correct element
+function launchFullscreen(element) {
+  if(element.requestFullscreen) {
+    ;
+  }
+}
+</script>
+
+
+</div>
+    <script src="js/javascript.js"></script>
+    <script>
+        var temp = 0
+        function animationOver() {
+            temp++;
+            if (temp != 2)
+                return;
+            setTimeout(function() {
+                console.log("animations over");
+                var doc = document.getElementById("main");
+                var inner = doc.innerHTML;
+                doc.innerHTML +=
+                    `<div class="textiboi">
+                <a id="typElement"></a></div>
+                <div size="+5" class="textiboi">
+				<a class="textiboi animated fadeIn"  href="https://www.youtube.com/channel/UCf2EIUMzA59yuixYqFIYhrA">Youtube</a>
+				<a class="textiboi animated fadeIn"  href="https://discord.io/shera">Discord</a>
+				<a class="textiboi animated fadeIn"  href="https://soundcloud.com/xn88ax">Soundcloud</a>`;
+                console.log("running typewrite");
+                indefiniteWrite();
+            }, 550);
+        }
+        function indefiniteWrite() {
+            let strs = [
+                "Blacks should be slaves",
+                "I am a nigger - london yellow",
+                "36100 permabans and still counting",
+                "L9 cyber gang",
+                "?XD",
+                "ong",
+                "1945",
+                "Its a virus!",
+                "sex",
+                "I fucking hate blacks",
+                "5k games on nasus ?<<<<XD",
+				"FULCRUM COME IN",
+				"YUUUUUUHHHH",
+				"YODIEEGANG",
+				"FADED THAN A HO",
+				"U FEEL ME",
+				"BOUTA ENTER DOUBLE PENJAMIN CITY",
+				"SHALL WE?",
+				"CHEERS MY FRIENDS",
+				"ANJNVJnxjnJNAJDSFBNSDFHJSFBADSFADSFBHADFSJHBASFHBDHBSDAFHBDSFFA",
+            ];
+            var num = getRandomInt(strs.length);
+
+            console.log("writing " + strs[num]);
+
+            var typElement = document.getElementById('typElement');
+
+            var typewriter = new Typewriter(typElement, {
+                loop: true
+            });
+
+            typewriter.typeString(strs[num]).pauseFor(5000).deleteAll().pauseFor(100).callFunction(() => {
+                typewriter.stop();
+                indefiniteWrite();
+            }).start();
+        }
+    </script>
+
+
+
+</body></html>
